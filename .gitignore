@@ -37,3 +37,11 @@ solution*/impl/
 *.o
 *.out
 *.exe
+
+# Data test 
+Embedded_Software/Datatest_Recognition/input_data_*.c
+Embedded_Software/Datatest_Recognition/main
+Embedded_Software/Datatest_Recognition/*.bit
+
+# HLS simulation
+solution*/sim/
