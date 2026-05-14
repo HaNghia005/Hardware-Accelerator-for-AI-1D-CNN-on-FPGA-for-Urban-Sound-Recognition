@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="Pool.h" path="D:\DOWNLOAD\Documents\KLTN\Py2C\venv\Pool.h"/>
+    <originFiles name="Pool.cpp" path="D:\DOWNLOAD\Documents\KLTN\Py2C\venv\Pool.cpp"/>
+    <originFiles name="Conv.h" path="D:\DOWNLOAD\Documents\KLTN\Py2C\venv\Conv.h"/>
+    <originFiles name="Conv.cpp" path="D:\DOWNLOAD\Documents\KLTN\Py2C\venv\Conv.cpp"/>
+    <originFiles name="CNN.h" path="D:\DOWNLOAD\Documents\KLTN\Py2C\venv\CNN.h"/>
+    <originFiles name="CNN.cpp" path="D:\DOWNLOAD\Documents\KLTN\Py2C\venv\CNN.cpp"/>
+  </source>
+  <testbench>
+    <originFiles name="Y.txt" path="D:\DOWNLOAD\Documents\KLTN\Py2C\Y.txt"/>
+    <originFiles name="X.txt" path="D:\DOWNLOAD\Documents\KLTN\Py2C\X.txt"/>
+    <originFiles name="Float_Weights.txt" path="D:\DOWNLOAD\Documents\KLTN\Py2C\venv\Float_Weights.txt"/>
+    <originFiles name="CNN_tb.cpp" path="D:\DOWNLOAD\Documents\KLTN\Py2C\venv\CNN_tb.cpp"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>
