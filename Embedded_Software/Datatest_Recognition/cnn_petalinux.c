@@ -126,9 +126,6 @@ int main()
     printf("========================================\n\n");
 	
     load_weights_to_bram();
-	//printf("Load weight done!");
-    // Run inference on all test SOUND
-    //printf("\nRunning inference on %d test SOUND\n\n", NUM_TEST_SOUND);
 
     int correct = 0;
     for (int i = 0; i < NUM_TEST_SOUND; i++)
@@ -140,27 +137,24 @@ int main()
 
         if (predicted == expected)
         {
-            //printf("PASS - Predicted: %d, Expected: %d ✓\n", predicted, expected);
+            printf("PASS - Predicted: %d, Expected: %d \n", predicted, expected);
             correct++;
         }
         else
         {
-            //printf("FAIL - Predicted: %s, Expected: %s ✗\n", predicted, expected);
+            printf("FAIL - Predicted: %s, Expected: %s \n", predicted, expected);
         }
     }
 
     // Print summary
-    printf("\n========================================\n");
     printf("  RESULTS\n");
-    printf("========================================\n");
     printf("Total sound: %d\n", NUM_TEST_SOUND);
     printf("Correct:      %d\n", correct);
     printf("Accuracy:     %.1f%%\n", (float)correct / NUM_TEST_SOUND * 100.0f);
-    printf("========================================\n\n");
 
     if (correct == NUM_TEST_SOUND)
     {
-        printf("✓✓✓ ALL TESTS PASSED! ✓✓✓\n");
+        printf("ALL TESTS PASSED!\n");
     }
     else
     {
